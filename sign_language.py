@@ -50,9 +50,7 @@ while True:
             mp_hands.HAND_CONNECTIONS, mp_draw.DrawingSpec((0,0,255),2,2),
             mp_draw.DrawingSpec((0,255,0),4,2))
             
-            key = cv2.waitKey(1)
-            if key==32:
-                break
+          
     
 
     cv2.imshow("hand tracking", img)
